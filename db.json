@@ -1,0 +1,90 @@
+{
+  "navigations": [
+    {
+      "id": "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+      "name": "Packaging Area",
+      "parent": "",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "63344700-9646-48b3-8337-f814ce30b7d0",
+      "name": "Processing Area",
+      "parent": "",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "e6aa1dab-dcfa-4f9b-a587-91becc70cc15",
+      "name": "Unassignd Area",
+      "parent": "",
+      "order": 3,
+      "visible": true
+    },
+    {
+      "id": "8a7c782d-8dc6-4ea2-b63b-a97014f5a4b5",
+      "name": "My Modules",
+      "icon": "bi bi-diagram-3",
+      "parent": "ef036a8e-aea1-407c-bc2e-09c8adcbf302"
+    },
+    {
+      "id": "627bf9e2-d6c1-4807-80d7-8dc29146badb",
+      "name": "Controllers",
+      "icon": "bi bi-cpu",
+      "parent": "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+      "accessType": "Public",
+      "selected": true
+    },
+    {
+      "id": "83493747-8cb4-418e-90bd-98efb387bd4b",
+      "name": "Assets",
+      "icon": "bi bi-building-gear",
+      "parent": "ef036a8e-aea1-407c-bc2e-09c8adcbf302"
+    },
+    {
+      "id": "6e834747-0a7f-45a3-a424-476959251d67",
+      "name": "Types",
+      "icon": "bi bi-gear",
+      "parent": "ef036a8e-aea1-407c-bc2e-09c8adcbf302"
+    },
+    {
+      "id": "208d6c94-85ea-4aca-b562-058e3cf1e23a",
+      "name": "Line 1 Line Controller",
+      "parent": "627bf9e2-d6c1-4807-80d7-8dc29146badb"
+    },
+    {
+      "id": "db746ffd-0d91-4c49-9c42-6d7f0c724d70",
+      "name": "Drives",
+      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a",
+      "accessType": "Private"
+    },
+    {
+      "id": "05e36832-fa66-40c5-b669-e1bb991601eb",
+      "name": "PhotoEyes",
+      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a"
+    },
+    {
+      "id": "b9ec9bf4-65ad-49e9-bb9f-dfe19f0bbf60",
+      "name": "Conveyor Motors",
+      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a"
+    },
+    {
+      "id": "70a960c9-e67d-4384-aa1e-8e7d12df4934",
+      "name": "Zone 1 Drives",
+      "parent": "db746ffd-0d91-4c49-9c42-6d7f0c724d70"
+    },
+    {
+      "id": "8af978b7-caa4-4261-b918-11a2f9601620",
+      "name": "Drives",
+      "parent": "6e834747-0a7f-45a3-a424-476959251d67"
+    },
+    {
+      "id": "2f7f6021-3104-46c4-9049-ffddc374d32a",
+      "name": "Controllers",
+      "icon": "bi bi-cpu",
+      "parent": "e6aa1dab-dcfa-4f9b-a587-91becc70cc15",
+      "accessType": "Private",
+      "selected": true
+    }
+  ]
+}

@@ -86,5 +86,994 @@
       "accessType": "Private",
       "selected": true
     }
-  ]
+  ],
+  "Modules":[
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e",
+      "header": {
+        "text": "VFD10501"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "0",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(220, 20, 60)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "Dna",
+          "measurement": "assetutillog",
+          "field": "colorcode",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "6e834747-0a7f-45a3-a424-476959251d67"
+      ]
+    },
+    {
+      "id": "626fec5d-ed5e-45e0-b9ee-62e7c0e9a324",
+      "modelid": "f47da4fc-f56a-4dd4-8e5a-7c8763668def",
+      "header": {
+        "text": "VFD10502"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "48",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.metacube.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "",
+          "type": "Dna",
+          "field": "colorcode",
+          "measurement": "assetutillog",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "db746ffd-0d91-4c49-9c42-6d7f0c724d70",
+        "627bf9e2-d6c1-4807-80d7-8dc29146badb"
+      ]
+    },
+    {
+      "id": "458ba75a-b0b5-43b3-897d-11d7bd3f8960",
+      "modelid": "d10365fc-08a5-4a25-9d1a-a7e576da0551",
+      "header": {
+        "text": "VFD10503"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "90",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Check",
+          "type": "Dna",
+          "field": "colorcode",
+          "measurement": "assetutillog",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "83493747-8cb4-418e-90bd-98efb387bd4b",
+        "6e834747-0a7f-45a3-a424-476959251d67"
+      ]
+    },
+    {
+      "id": "586987c1-0c22-4e01-bdcf-c88cd035ce3d",
+      "modelid": "b7ad9d29-f113-4d83-9996-eb2f787bb9fc",
+      "header": {
+        "text": "VFD10504"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "66",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "",
+          "type": "Dna",
+          "field": "colorcode",
+          "measurement": "assetutillog",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "8a7c782d-8dc6-4ea2-b63b-a97014f5a4b5",
+        "83493747-8cb4-418e-90bd-98efb387bd4b",
+        "db746ffd-0d91-4c49-9c42-6d7f0c724d70",
+        "627bf9e2-d6c1-4807-80d7-8dc29146badb"
+      ]
+    },
+    {
+      "id": "99b7ffc1-65dc-4a3e-93af-3b7d92b9b8c5",
+      "header": {
+        "text": "VFD10505"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "88",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count",
+          "type": "Dna",
+          "field": "colorcode",
+          "measurement": "assetutillog",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "8a7c782d-8dc6-4ea2-b63b-a97014f5a4b5",
+        "63344700-9646-48b3-8337-f814ce30b7d0",
+        "83493747-8cb4-418e-90bd-98efb387bd4b",
+        "6e834747-0a7f-45a3-a424-476959251d67"
+      ]
+    },
+    {
+      "id": "d36d769e-77c4-4886-9d6a-cb471ef830aa",
+      "header": {
+        "text": "VFD10506"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "88",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(192, 192,192)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count",
+          "type": "Dna",
+          "field": "colorcode",
+          "measurement": "assetutillog",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "ef036a8e-aea1-407c-bc2e-09c8adcbf302",
+        "8a7c782d-8dc6-4ea2-b63b-a97014f5a4b5",
+        "63344700-9646-48b3-8337-f814ce30b7d0",
+        "db746ffd-0d91-4c49-9c42-6d7f0c724d70",
+        "627bf9e2-d6c1-4807-80d7-8dc29146badb"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d1",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e1",
+      "header": {
+        "text": "VFD10507"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "",
+        "unit": ""
+      },
+      "backgroundcolor": "rgb(220, 20, 60)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "",
+          "type": "",
+          "series": [],
+          "field": "",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "",
+          "measurement": "assetutillog",
+          "field": "",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d2",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e2",
+      "header": {
+        "text": "VFD10508"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "",
+        "unit": ""
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "",
+          "type": "Boolean",
+          "series": [],
+          "field": "IsBinary",
+          "measurement": "aItemData",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "",
+          "measurement": "assetutillog",
+          "field": "",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d3",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e3",
+      "header": {
+        "text": "VFD10509"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "0",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "Dna",
+          "measurement": "assetutillog",
+          "field": "colorcode",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d4",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e4",
+      "header": {
+        "text": "VFD10510"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "0",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Boolean",
+          "series": [],
+          "field": "IsBinary",
+          "measurement": "aItemData",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "Dna",
+          "measurement": "assetutillog",
+          "field": "colorcode",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d5",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e5",
+      "header": {
+        "text": "VFD10511"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "0",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(117, 186, 59)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "",
+          "type": "",
+          "series": [],
+          "field": "",
+          "measurement": "",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "Dna",
+          "measurement": "assetutillog",
+          "field": "colorcode",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    },
+    {
+      "id": "952b536f-40cd-4c20-ae63-e7861375789d6",
+      "modelid": "d7fdfd80-9ba4-41e5-ac1b-855958ed743e6",
+      "header": {
+        "text": "VFD10512"
+      },
+      "subHeader": {
+        "text": ""
+      },
+      "description": {
+        "text": ""
+      },
+      "notifications": [
+        {
+          "icon": "notifications",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        },
+        {
+          "icon": "alarm",
+          "action": "showdialog(notification)",
+          "actionType": "event"
+        }
+      ],
+      "center": {
+        "value": "0",
+        "unit": "Hz"
+      },
+      "backgroundcolor": "rgb(192, 192,192)",
+      "action": "www.google.com",
+      "actiontype": "link",
+      "charts": [
+        {
+          "title": "Frequency",
+          "type": "Analog",
+          "series": [],
+          "field": "av",
+          "measurement": "assetutillog",
+          "interpolation": {
+            "type": "spline",
+            "step": ""
+          }
+        },
+        {
+          "title": "Run Count 11",
+          "type": "Dna",
+          "measurement": "assetutillog",
+          "field": "colorcode",
+          "series": []
+        }
+      ],
+      "additonaldetails": [
+        {
+          "icon": "home",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-1"
+        },
+        {
+          "icon": "notifications_off",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-2"
+        },
+        {
+          "icon": "dialpad",
+          "action": "showdialog(alarm)",
+          "actiontype": "event",
+          "text": "Test-3"
+        }
+      ],
+      "footerHeader": {
+        "text": ""
+      },
+      "footerDescription": {
+        "text": ""
+      },
+      "assignedTo": [
+        "e6aa1dab-dcfa-4f9b-a587-91becc70cc15"
+      ]
+    }
+  ]   
 }

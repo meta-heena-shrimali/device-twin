@@ -48,37 +48,6 @@
       "parent": "ef036a8e-aea1-407c-bc2e-09c8adcbf302"
     },
     {
-      "id": "208d6c94-85ea-4aca-b562-058e3cf1e23a",
-      "name": "Line 1 Line Controller",
-      "parent": "627bf9e2-d6c1-4807-80d7-8dc29146badb"
-    },
-    {
-      "id": "db746ffd-0d91-4c49-9c42-6d7f0c724d70",
-      "name": "Drives",
-      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a",
-      "accessType": "Private"
-    },
-    {
-      "id": "05e36832-fa66-40c5-b669-e1bb991601eb",
-      "name": "PhotoEyes",
-      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a"
-    },
-    {
-      "id": "b9ec9bf4-65ad-49e9-bb9f-dfe19f0bbf60",
-      "name": "Conveyor Motors",
-      "parent": "208d6c94-85ea-4aca-b562-058e3cf1e23a"
-    },
-    {
-      "id": "70a960c9-e67d-4384-aa1e-8e7d12df4934",
-      "name": "Zone 1 Drives",
-      "parent": "db746ffd-0d91-4c49-9c42-6d7f0c724d70"
-    },
-    {
-      "id": "8af978b7-caa4-4261-b918-11a2f9601620",
-      "name": "Drives",
-      "parent": "6e834747-0a7f-45a3-a424-476959251d67"
-    },
-    {
       "id": "2f7f6021-3104-46c4-9049-ffddc374d32a",
       "name": "Controllers",
       "icon": "bi bi-cpu",
